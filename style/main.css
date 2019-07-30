@@ -1,0 +1,297 @@
+header {
+  z-index: 1;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10%;
+  height: 200px;
+  width: 80%;
+  top: 0;
+  color: white;
+  transition: 0.3s ease-in-out;
+}
+header .nav {
+  width: 50%;
+}
+header .nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  font-family: "GT Eesti", sans-serif;
+  font-size: 16px;
+}
+header .nav ul li {
+  cursor: pointer;
+}
+header .nav ul a {
+  text-decoration: none;
+  color: white;
+}
+header.white {
+  background: white;
+  color: black;
+  height: 100px;
+  background: white;
+  -webkit-box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.75);
+}
+header .logo {
+  width: 125px;
+  height: 120px;
+  overflow: hidden;
+  background: url("../assets/logo1.png");
+  background-size: cover;
+}
+header .logo img {
+  width: 100%;
+  height: 100%;
+}
+
+.white > .logo {
+  height: 92px;
+  width: 95px;
+  background: url("../assets/logo.png");
+  background-size: cover;
+}
+
+.white .nav ul a {
+  color: black;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main {
+  width: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.TVInterfaceWrapper {
+  overflow: visible !important;
+  font-family: "GT EEsti", sans-serif;
+}
+
+.TVInterfaceWrapper .TVSearchButton {
+  font-weight: 400 !important;
+  font-family: "GT EEsti", sans-serif;
+}
+
+.TVMainFilterButton {
+  font-weight: 400 !important;
+  font-family: "GT EEsti", sans-serif;
+}
+
+.TVMainFilter {
+  overflow: visible !important;
+}
+
+.TVHotTours .TVTheme2 {
+  width: 1300px;
+}
+
+.TVHotTours.TVTheme2 .TVHotMainColor-ES {
+  font-family: "GT Eesti", sans-serif;
+}
+
+.button {
+  font-size: 16px;
+  background: #f44236;
+  width: 150px;
+  height: 40px;
+  padding: 0;
+  border: none;
+  color: white;
+  font-family: "GT EEsti", sans-serif;
+  line-height: 40px;
+  text-align: center;
+  transition: 0.3s ease-in-out;
+}
+.button:hover {
+  background: #29BF12;
+}
+
+.scroll-item {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  object-fit: fill;
+  height: 100vh;
+}
+
+.first {
+  height: 100vh;
+}
+
+.intro {
+  height: 25%;
+  color: white;
+  width: 80%;
+  position: absolute;
+  top: calc(25% + 100px);
+  left: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "GT EEsti", sans-serif;
+}
+
+.intro__title {
+  font-family: "GT EEsti", sans-serif;
+  font-weight: 500;
+  font-size: 50px;
+}
+
+.intro__text {
+  font-size: 20px;
+}
+
+.second {
+  height: 120vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.second .section__content {
+  height: calc(100% - 250px);
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 15px;
+}
+.second .destination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-family: "GT Eesti", sans-serif;
+  font-size: 24px;
+}
+.second .destination:first-of-type {
+  background: url("../assets/dubai.jpg");
+  background-size: cover;
+  grid-column: 1/2;
+  grid-row: 1/3;
+}
+.second .destination:nth-of-type(2) {
+  background: url("../assets/thailand.jpg");
+  background-size: cover;
+}
+.second .destination:nth-of-type(3) {
+  background: url("../assets/fall.jpg");
+  background-size: cover;
+}
+.second .destination:nth-of-type(5) {
+  background: url("../assets/fall.jpg");
+  background-size: cover;
+}
+.second .destination:nth-of-type(4) {
+  background: url("../assets/egypt.jpg");
+  background-size: cover;
+}
+
+.third {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background: url("../assets/bg.jpg");
+  background-size: cover;
+}
+.third .section__content {
+  width: 80%;
+  height: calc(100% - 100px);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.third .button {
+  margin-top: 50px;
+  margin-bottom: 55px;
+}
+
+.section__title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 150px;
+  font-family: "GT Eesti", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.fourth {
+  background: url("../assets/bg.png");
+  background-size: cover;
+  width: 100%;
+  min-height: 100vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fifth {
+  height: 150vh;
+  display: flex;
+  margin-left: 10%;
+  margin-right: 10%;
+  width: 80%;
+  align-items: center;
+  justify-content: space-between;
+}
+.fifth .image {
+  height: 75%;
+  width: 45%;
+  background: url("../assets/dubai.jpg");
+}
+
+.visas-info {
+  width: 40%;
+  height: 30%;
+  background: white;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-left: 30px;
+  padding-top: 30px;
+}
+
+.info__title {
+  font-size: 40px;
+  font-weight: 700;
+  font-family: "GT Eesti", sans-serif;
+}
+
+.info__text {
+  font-family: "GT Eesti", sans-serif;
+  font-size: 24px;
+}
+
+/*# sourceMappingURL=main.css.map */

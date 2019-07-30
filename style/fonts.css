@@ -1,0 +1,25 @@
+@font-face {
+    font-family: "wichita";
+    src: url('../fonts/Wichita.otf');
+}
+
+@font-face {
+    font-family: "Garamond";
+     src:  url('../fonts/garamond.ttf');
+}
+
+
+@font-face {
+    font-family: "Helvetica";
+    src: url('../fonts/Helvetica.otf');
+}
+
+@font-face {
+    font-family: "Merriweather";
+    src: url('../fonts/Merriweather-UltraBold.ttf');
+}
+
+@font-face {
+  font-family: "GT Eesti";
+  src: url('../fonts/GT Eesti.otf');
+}

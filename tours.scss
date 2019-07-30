@@ -1,0 +1,26 @@
+@import "header";
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  width: 100%;
+  background: url('../assets/dubai.jpg');
+  background-size: cover;
+  height: 50vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+    font-family: "GT EEsti", sans-serif;
+    font-size: 40px;
+    font-weight:700;
+    color: white;
+}
+
+.tours {
+  margin-top: 100px;
+  width: 80%;
+}

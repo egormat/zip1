@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link type="text/css" rel="stylesheet" href="style/main.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Source+Sans+Pro" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Ubuntu+Condensed" rel="stylesheet">
+  <link rel="stylesheet" href="style/fonts.css">
+  <link rel="stylesheet" type="text/css" href="wow-animation/animate.min.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <meta charset="utf-8">
+  <script src="wow-animation/wow.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollify/1.0.19/jquery.scrollify.js"></script>
+  <script src="js/scrollify-mainpage.js"></script>
+  <script src="rellax.min.js"></script>
+   <script src="js/header.js"></script>
+
+
+
+</head>
+
+
+<script>
+  new WOW().init();
+</script>
+
+
+
+<body>
+  <header>
+    <div class="logo">
+      <!-- <img src="assets/logo1.png" alt=""> -->
+    </div>
+    <div class="nav">
+      <ul>
+        <li class="nav__item">
+          <a href="tours.html">Туры</a></li>
+        <li class="nav__item">Горящие туры</li>
+        <li class="nav__item">Визы</li>
+        <li class="nav__item">Контакты</li>
+        <li class="nav__item button">Подобрать тур</li>
+      </ul>
+    </div>
+  </header>
+
+
+<main>
+  <div class="first">
+    <video autoplay muted loop id="myVideo">
+      <source src="assets/video.webm" type="video/webm">
+    </video>
+    <div class="intro">
+      <div class="intro__title">Куда вы хотите полететь?</div>
+      <!-- <div class="intro__text">Заходите к нам на сайт и получите удовольстиве от путешествия.</div>
+      <button class="intro__button button">Смотреть туры</button> -->
+      <div class="tv-search-form tv-moduleid-190071 "></div>
+      <script type="text/javascript" src="//tourvisor.ru/module/init.js"></script>
+    </div>
+
+
+  </div>
+
+
+
+  <div class=" third">
+    <div class="section__title wow zoomIn data-wow-delay=" 1s "">Горящие туры</div>
+    <div class="section__content wow zoomIn data-wow-delay=" 1s "">
+      <div class="tv-hot-tours tv-moduleid-979599" style="width:100%"></div>
+      <div class="content__more-button button">Еще горящие туры</div>
+      <script type="text/javascript" src="//tourvisor.ru/module/init.js"></script>
+    </div>
+  </div>
+  <div class="fifth">
+      <div class="image rellax"></div>
+      <div class="visas-info">
+        <div class="info__title">
+            Визы
+        </div>
+        <div class="info__text">
+          Виза – счастливый билет, с которым Вы можете беспрепятственно въехать на территорию страны своей мечты.
+        </div>
+        <div class="info__button button">
+          Подробнее
+        </div>
+      </div>
+  </div>
+  <div class="second">
+    <div class="section__title wow bounceInUp data-wow-delay="1s"">Популярные направления</div>
+    <div class="section__content wow bounceInUp data-wow-delay="2s"">
+      <div class="destination ">
+        <div class="text">
+          ОАЭ
+        </div>
+      </div>
+      <div class="destination ">
+        <div class="text">
+          Таиланд
+        </div>
+      </div>
+      <div class="destination  ">
+        <div class="text">
+        Индонезия
+        </div>
+      </div>
+      <div class="destination ">
+        <div class="text">
+          Египет
+        </div>
+      </div>
+      <div class="destination">
+        <div class="text">
+          Турция
+        </div>
+      </div>
+    </div>
+
+  </div>
+</main>
+  <div class="fourth">
+      <div class="section__title">Контакты</div>
+  </div>
+
+
+<footer>
+
+</footer>
+</body>
+
+<script>
+  // Accepts any class name
+  var rellax = new Rellax('.rellax', {
+    center: true,
+  });
+</script>
+
+
+</html>
